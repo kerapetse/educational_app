@@ -1,0 +1,1 @@
+- Find a way to collapse and expand the right element

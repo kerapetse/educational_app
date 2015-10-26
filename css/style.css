@@ -1,0 +1,131 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    color:white;
+}
+
+#main-wrapper{
+  margin-left:20px;
+  margin-right:20px;
+  border: 1px solid black;
+  padding: 5px;
+  background: white;
+  border: 5px solid #F3F3F3;
+  box-shadow: 1px 1px 2px gray;
+  //height:100%;
+  color: black;
+}
+#footer{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top:15px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:5px;
+}
+#login{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  background-color: #b0e0e6;  
+  box-shadow: 10px 10px 5px #888888;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+#error{
+  color:red;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
+#status{
+  color:blue;
+  float:right;
+  font-size: 10px;
+  margin:5px;
+  border:1px solid red;
+  padding:5px;
+}
+/*
+#toggle{
+  border:2px solid black;
+  padding:2px;
+}*/
+[id^="toggletopic"]{
+  display:none;
+  font-weight: bolder;
+}
+#toggleQuestion{
+  display:none;
+}
+[id^="collapsed"]{
+  display:none;
+}
+#mark{
+ 
+}
+.nosubj{
+  color:red;
+}
+#left-space{
+  padding-left: 25px;
+}
+/**Main Tab Menu **/
+.headers{
+  margin-bottom: 20px;  
+}
+.headers ul{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  border: 2px solid white;
+  padding:0;
+}
+.headers li {
+  float: left;
+  
+  
+}
+.headers li a:link, .headers li a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.headers li a:hover {
+    background-color: #7A991A;
+}
+.headers li a:active {
+  background-color: #7A991A;
+}
+#tablestyle{
+
+}
+#tablestyle th tr td{
+  font-weight: bolder;
+  color: blue;
+}
+#tablestyle td,th{
+ padding: 5px;
+ 
+}
+#tablestyle th{
+  border: 1px solid black;
+}
+#tablestyle tr:nth-child(even){
+  background: #CCC;
+}
+#tablestyle tr:hover{
+  background: gray;
+  color: white;
+}
+
+#heading{
+  font-weight: bolder;
+}
